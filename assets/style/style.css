@@ -22,3 +22,74 @@
 border-radius: 20px;
 
   }
+  
+  /* .cat_box>ul>li:hover{
+    background-color: rgb(231, 231, 231);
+  }
+  .mega_drop{
+    width: 100%;
+    border: 1px solid red;
+  }
+  .mega_drop a,.mega_drop li{
+    list-style: none;
+    text-decoration: none;
+ 
+  }
+  .mega_drop{
+    position: absolute;
+    left: 20%;
+    top: 15%;
+    width: 80%;
+display: none;
+  }
+  .cat_box{
+    width: 20%;
+    border: 1px solid red;
+  }
+  .hover_text:hover .mega_drop{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 25px;
+   
+  }
+  .mega_drop>ul{
+   width: 33%;
+  
+  } */
+.nav_container{
+    background-color: #f28b00;
+ 
+}
+  .sub_mega1{
+    display: flex;
+    border: 1px solid rgb(240, 240, 240);
+    position: absolute;
+    padding: 10px;
+    width: 90%;
+    top: 100%;
+    left: 4%;
+    background-color: #f0f0f0;
+ visibility: hidden;
+ /* transition: 0.3s; */
+ /* margin-top: 10px; */
+  }
+  .sub_mega1>.sub_ul{
+    width: 20%;
+  }
+   
+  .hover_box:hover .sub_mega1{
+    display: flex;
+    visibility: visible;
+ /* margin-top: 10px; */
+
+  }
+  .sub_ul li{
+    padding: 5px;
+    /* background-color: #dbf2f7; */
+  }
+  .hover_box>a{
+    color: white;
+  }
+  .hover_box:hover{
+    background-color: #020072;
+  }
