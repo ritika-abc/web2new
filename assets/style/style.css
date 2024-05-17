@@ -68,10 +68,12 @@ display: none;
     width: 90%;
     top: 100%;
     left: 4%;
-    background-color: #f0f0f0;
+    /* background-color: #f0f0f0; */
  visibility: hidden;
- /* transition: 0.3s; */
- /* margin-top: 10px; */
+ margin-top: 10px;
+ transition: 0.3s;
+ opacity:0;
+
   }
   .sub_mega1>.sub_ul{
     width: 20%;
@@ -80,7 +82,8 @@ display: none;
   .hover_box:hover .sub_mega1{
     display: flex;
     visibility: visible;
- /* margin-top: 10px; */
+ margin-top: 0px;
+ opacity: 1;
 
   }
   .sub_ul li{
