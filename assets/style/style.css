@@ -96,3 +96,38 @@ display: none;
   .hover_box:hover{
     background-color: #020072;
   }
+
+ 
+  .mega-drop>ul{
+    width: 30%;
+    margin: auto;
+
+  }
+  .mega-drop>ul>li:hover{
+    background-color:  #e4dede2f;
+  }
+ .mega-drop{
+    position: absolute;
+    left: 100%;
+    width: 70vw;
+    top: 0%;
+    display: flex;
+    flex-wrap: wrap;
+    /* height: 50vh; */
+/* justify-content: space-around; */
+    border: 1px solid rgb(235, 235, 235);
+  background-color: rgba(243, 243, 243, 0.521);
+  display: none;
+}
+.hov-1:hover .mega-drop{
+  display: flex;
+}
+.hov-1{
+  transition: 0.3s;
+  margin-left: 0px;
+}
+.hov-1:hover{
+  margin-left: 10px;
+
+  background-color: #dfdfdf;
+}
